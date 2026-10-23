@@ -14,7 +14,7 @@ while True:
     special_fine = any(not char.isalnum() for char in password)
 
     if all([length_fine, lowercase_fine, uppercase_fine, number_fine, special_fine]):
-        print("\n Password accepted.")
+        password_final = input("\n Please confirm your password. (re-enter):  ")
         break
    
     if length_fine == False:
@@ -28,4 +28,9 @@ while True:
     if special_fine == False:
         print("Password must include atleast one special character. \n")
 
-    
+
+if password_final == password:
+    password_save = password_final#
+    print("Password accepted and saved")
+
+ 
