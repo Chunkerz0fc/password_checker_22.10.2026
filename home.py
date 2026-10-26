@@ -20,11 +20,11 @@ while True:
     if length_fine == False:
         print("Password must be 8 characters or longer. \n")
     if lowercase_fine == False:
-        print("Password must contain lowercase charcters. \n")
+        print("Password must contain lowercase characters. \n")
     if uppercase_fine == False:
         print("Password must contain uppercase characters. \n")
     if number_fine == False:
-        print("Password must include atleast oen number. \n")
+        print("Password must include at least one number. \n")
     if special_fine == False:
         print("Password must include atleast one special character. \n")
 
